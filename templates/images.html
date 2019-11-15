@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>images</title>
+</head>
+<body>
+{% if "bt" in crck  %}
+
+    <img src="{% static 'images/dhoni.jpg' %}">
+    <img src="{% static 'images/kohli.jpg' %}">
+    <img src="{% static 'images/rohith.jpg' %}">">
+{% endif %}
+{% if "bw" in crck1 %}
+    <img src="{% static 'images/bumrah.jpg' %}">
+    <img src="{% static 'images/Ashwin.jpg' %}">
+    <img src="{% static 'images/jadeja.jpg' %}">
+{% endif %}
+{% if "wk" in crck2 %}
+
+    <img src="{% static 'images/gilchrist.jpg' %}">
+    <img src="{% static 'images/sangarkara.jpg' %}">
+    <img src="{% static 'images/panth.jpg'%}">
+{% endif %}
+</body>
+</html>
